@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>inputs</title>
+  </head>
+  <body>
+<form class="" action="index.html" method="post">
+  <label>Your name:</label>
+  <input type="text" name="" value="">
+  <br>
+  <label>fecha</label>
+  <input type="date" id="start" name="trip-start"
+         value="2018-07-22"
+         min="2018-01-01">
+   <br>
+   <input type="radio" name="" value="">
+   <input type="range" name="" value="">
+   <input type="file" name="" value="">
+    <input type="tel" name="" value="">
+</form>
+<hr>
+
+ <ul>
+  <li>
+    <label for="name">Nombre:</label> <!--Ejemplo-->
+    <input type="text" id="name" name="user_name">
+    <!--. Ten en cuenta el uso del atributo for en todos los elementos <label>,
+    que toma como valor el id del control de formulario con el que está asociado;
+    así es como asocias un formulario con su etiqueta. -->
+  </li>
+  <li>
+    <label for="mail">Correo electrónico:</label>
+    <input type="email" id="mail" name="user_mail">
+  </li>
+  <li>
+    <label for="msg">Mensaje:</label>
+    <textarea id="msg" name="user_message"></textarea>
+  </li>
+ </ul>
+</form>
+  </body>
+</html>
